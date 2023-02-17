@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/faucet-ui/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/faucet-ui/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# NITs-token
+/NITs-token/node_modules
+/NITs-token/.env
+/NITs-token/coverage
+/NITs-token/coverage.json
+/NITs-token/typechain
+/NITs-token/typechain-types
+
+#Hardhat files
+/NITs-token/cache
+/NITs-token/artifacts
+
